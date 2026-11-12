@@ -1,12 +1,12 @@
 # Pokémon Scout AI
 
-Première version du site vitrine français de Pokémon Scout AI, projet indépendant d’alertes de disponibilité Pokémon TCG en développement. Aucune alerte, donnée de stock ou offre commerciale opérationnelle n’est présentée.
+Première version du site vitrine français de Pokémon Scout AI, projet communautaire indépendant et non commercial autour du Pokémon TCG. Le serveur Discord est ouvert ; les alertes automatisées sont encore en développement. Aucun lien affilié, publicité ou partenariat commercial n’est proposé.
 
 ## Technique
 
 HTML5, CSS3 et JavaScript natif, sans framework, backend, dépendance, police distante ou outil de suivi. Le visuel radar est réalisé en CSS, sans illustration Pokémon. Les fichiers sont servis tels quels : aucune compilation nécessaire.
 
-- `index.html` : présentation, fonctionnalités prévues, communauté, affiliation et informations légales.
+- `index.html` : présentation, fonctionnalités prévues, communauté, présentation neutre du projet et informations légales.
 - `style.css` : thème sombre, responsive, états de focus et respect des préférences de mouvement réduit.
 - `script.js` : configuration Discord, validation de l’invitation, année du pied de page et ouverture des informations légales.
 - `package.json` : commande de prévisualisation Codex utilisant Python 3, sans dépendance npm. Le relais Codex a échoué pendant les essais ; l’affichage intégré reste non validé.
@@ -29,14 +29,15 @@ Pour modifier l’invitation, mettre à jour les trois liens `data-discord` dans
 
 Le serveur Discord existe ; les alertes automatisées sont encore en développement.
 
+Le contact officiel est `pokemonscoutai@gmail.com`, accessible par un lien `mailto:` dans le pied de page et la section Contact, sans JavaScript.
+
 ## Informations à compléter avant publication
 
 - Identité et coordonnées légales de l’éditeur, responsable de publication et hébergeur dans les mentions légales.
-Le contact officiel est `pokemonscoutai@gmail.com`, accessible par un lien `mailto:` dans le pied de page et la section Contact, sans JavaScript.
 - Politique de confidentialité selon l’hébergement et les traitements réellement utilisés.
 - URL canonique et métadonnées de partage lorsque l’adresse publique sera décidée.
 
-La mention d’affiliation décrit un usage futur ; tout futur lien affilié devra être signalé. Le site indique explicitement son indépendance vis-à-vis de The Pokémon Company.
+L’affiliation pourra être étudiée ultérieurement ; elle ne fait pas partie de cette première phase. Le site indique explicitement son indépendance vis-à-vis de The Pokémon Company. Aucune identité légale ni adresse postale n’a été inventée : les informations manquantes doivent être renseignées avant toute publication.
 
 ## Compatibilité GitHub Pages
 
