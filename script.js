@@ -1,8 +1,8 @@
 'use strict';
 
-// Configuration publique uniquement. Laisser vide tant qu’aucune invitation n’est fournie.
+// Invitation officielle publique, également présente dans le HTML pour fonctionner sans JavaScript.
 const SITE_CONFIG = Object.freeze({
-  discordInviteUrl: ''
+  discordInviteUrl: 'https://discord.gg/yNKcpr32WK'
 });
 
 function getDiscordInvite(value) {
@@ -23,9 +23,6 @@ if (invitation) {
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     link.setAttribute('aria-label', `${link.textContent.trim()} (nouvel onglet)`);
-  });
-  document.querySelectorAll('[data-invite-note]').forEach((note) => {
-    note.textContent = 'Rejoignez la communauté. Le service d’alertes est encore en développement.';
   });
 }
 

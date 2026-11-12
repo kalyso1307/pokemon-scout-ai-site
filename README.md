@@ -23,14 +23,16 @@ Ouvrir `http://127.0.0.1:8000`. On peut également ouvrir `index.html` directeme
 
 ## Configurer Discord
 
-Dans `script.js`, renseigner `SITE_CONFIG.discordInviteUrl` avec une véritable invitation HTTPS fournie par le responsable du projet. Formats acceptés : `https://discord.gg/CODE` ou `https://discord.com/invite/CODE`.
+L’invitation officielle est `https://discord.gg/yNKcpr32WK`. Les trois boutons Discord (en-tête, accueil et communauté) ouvrent cette adresse dans un nouvel onglet avec `target="_blank"` et `rel="noopener noreferrer"`, y compris sans JavaScript.
 
-La valeur est vide par défaut. Sans invitation valide, les boutons mènent à la section communauté et à son message d’indisponibilité. Aucun faux lien n’est utilisé. Avec une invitation valide, les deux boutons de conversion ouvrent Discord dans un nouvel onglet ; le bouton d’en-tête mène à la section communauté. Ne placer aucun secret dans cette configuration publique.
+Pour modifier l’invitation, mettre à jour les trois liens `data-discord` dans `index.html` et `SITE_CONFIG.discordInviteUrl` dans `script.js`. Formats validés par le JavaScript : `https://discord.gg/CODE` ou `https://discord.com/invite/CODE`. Ne placer aucun secret dans cette configuration publique.
+
+Le serveur Discord existe ; les alertes automatisées sont encore en développement.
 
 ## Informations à compléter avant publication
 
 - Identité et coordonnées légales de l’éditeur, responsable de publication et hébergeur dans les mentions légales.
-- Canal de contact réel et lien Discord, lorsqu’ils sont disponibles.
+- Canal de contact réel, lorsqu’il sera disponible.
 - Politique de confidentialité selon l’hébergement et les traitements réellement utilisés.
 - URL canonique et métadonnées de partage lorsque l’adresse publique sera décidée.
 
@@ -48,4 +50,4 @@ GitHub Pages n’est pas activé par ce travail. La branche `work` est destinée
 node --check script.js
 ```
 
-Contrôler également la structure HTML, l’unicité des identifiants, les cibles des ancres et la présence des ressources locales. Dans le navigateur : navigation clavier, ouverture des informations légales, affichage mobile et ordinateur, absence d’invitation puis configuration d’une invitation valide. Les fonctionnalités d’alertes décrites sont prévues et non opérationnelles.
+Contrôler également la structure HTML, l’unicité des identifiants, les cibles des ancres et la présence des ressources locales. Dans le navigateur : navigation clavier, ouverture des informations légales, affichage mobile et ordinateur, les trois liens Discord et leurs attributs de sécurité. Les fonctionnalités d’alertes décrites sont prévues et non opérationnelles.
