@@ -32,7 +32,7 @@ Le serveur Discord existe ; les alertes automatisées sont encore en développem
 ## Informations à compléter avant publication
 
 - Identité et coordonnées légales de l’éditeur, responsable de publication et hébergeur dans les mentions légales.
-- Canal de contact réel, lorsqu’il sera disponible.
+Le contact officiel est `pokemonscoutai@gmail.com`, accessible par un lien `mailto:` dans le pied de page et la section Contact, sans JavaScript.
 - Politique de confidentialité selon l’hébergement et les traitements réellement utilisés.
 - URL canonique et métadonnées de partage lorsque l’adresse publique sera décidée.
 
